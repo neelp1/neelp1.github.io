@@ -1,13 +1,27 @@
 .container {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  /*position: relative;*/
   margin-right: auto;
   margin-left: auto;
 }
 
-body {
-    color: white !important;
-    background-color: rgba(0, 0, 0, 0) !important;
-    text-align: center;
-    vertical-align: middle;
+html, body {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  text-align: center;
+  min-height: 100%;
+  height: 100%;
+}
+
+
+
+.centered-div {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 
 .full {
