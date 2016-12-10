@@ -22,10 +22,26 @@ html, body {
   transform: translate(-50%,-50%);
 }
 
-.full {
+/*.full {
     background: url('images/red-leaf.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}*/
+
+.full {
+  background-image: url("images/stardust.png");
+  background-repeat: repeat;
+}
+
+.btn-transparent {
+  color: white !important;
+  background-color: transparent !important;
+  border: 2px solid white !important;
+}
+
+.btn-transparent:hover {
+  color: black !important;
+  background-color: white !important;
 }
