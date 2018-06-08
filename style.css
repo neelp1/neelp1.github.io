@@ -1,10 +1,45 @@
-.container {
+/*.container {
   display: inline-block;
   vertical-align: middle;
   float: none;
-  /*position: relative;*/
+  position: relative;
   margin-right: auto;
   margin-left: auto;
+}*/
+.container-1 {
+  background-image: url("images/grep-cover.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  /*opacity: 1;*/
+}
+
+.container-2 {
+  height: 200px;
+  background-color: white;
+  position: relative;
+  /*display: inline-block;*/
+  color: black !important;
+}
+
+.container-3 {
+  background-image: url("images/grep-cover.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-4 {
+  height: 300px;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  color: black !important;
 }
 
 html, body {
@@ -16,24 +51,32 @@ html, body {
 }
 
 .centered-div {
-  position: absolute;
+  position: relative;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
 }
 
-/*.full {
-    background: url('images/red-leaf.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.box-column {
+  position: relative;
+  height: 25%;
+}
+
+.content-column {
+
+}
+
+.
+/*.list-horizontal {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
 }*/
 
-.full {
-  background-image: url("images/stardust.png");
-  background-repeat: repeat;
-}
+/*li {
+  display: inline;
+  padding: 20px 20px 20px 20px
+}*/
 
 .btn-transparent {
   color: white !important;
